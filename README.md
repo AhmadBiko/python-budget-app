@@ -11,8 +11,8 @@ An object-oriented command-line application built with Python to track financial
 
 ## 📊 Core Components
 The application consists of two main structural parts:
-* **`Category` Class**: Manages distinct budget categories (e.g., Food, Clothing). Handles internal methods for `deposit`, `withdraw`, `get_balance`, `transfer`, and generates a formatted receipt.
-* **`create_spend_chart` Function**: Takes a list of categories, calculates the percentage of total withdrawals per category, and dynamically generates a text-based bar chart.
+* **`Category`**: Manages distinct budget categories (e.g., Food, Clothing). Handles internal methods for `deposit`, `withdraw`, `get_balance`, `transfer`, and generates a formatted receipt.
+* **`create_spend_chart`**: Takes a list of categories, calculates the percentage of total withdrawals per category, and dynamically generates a text-based bar chart.
 
 ## 🚀 How to Run
 1. Execute the script in your terminal:
